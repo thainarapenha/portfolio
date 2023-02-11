@@ -268,3 +268,21 @@ nav ul li {
     color: var(--white);
   }
 }
+
+.containerFooter {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--black);
+
+  p {
+    color: var(--white);
+  }
+}
+
+.divIcons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
