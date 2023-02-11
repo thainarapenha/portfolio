@@ -5,6 +5,7 @@ import { Habilidades } from './components/Habilidades/Habilidades'
 import { Contatos } from './components/Contatos/Contatos'
 import { Sobre } from './components/Sobre/Sobre'
 import { Footer } from './components/Footer/Footer'
+import { Projetos } from './components/Projetos/Projetos'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Habilidades/>
       <Sobre/>
+      <Projetos/>
       <Contatos/>
       <Footer/>
     </div>
