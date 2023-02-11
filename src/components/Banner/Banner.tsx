@@ -6,7 +6,7 @@ export const Banner: React.FC = () => {
     <section className="sectionBanner">
       <div className="banner">
         <div className="divText">
-          <h1>Construção digital do seu site, portfólio e <a style={{color: "#5E3AEE"}}>muito mais!</a></h1>
+          <h1>Construção digital do seu site, portfólio e <span>muito mais!</span></h1>
           <p>Dê uma nova cara ao seu negócio. Sites com um ótimo visual, funcionalidades e tecnologia.</p>
           <button>Faça um orçamento gratuito</button>
         </div>

@@ -69,6 +69,10 @@ nav ul li {
     margin: 32px 0;
   }
 
+  span {
+    color: var(--lilas);
+  }
+
   button {
     width: 418px;
     height: 57px;
@@ -83,3 +87,75 @@ nav ul li {
   left: 44%;
   position: absolute;
 }
+
+.containerHabilidades {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--black);
+  border: 2px solid red;
+
+  h2 {
+    width: 747px;
+    height: 98px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3%;
+    color: var(--white);
+  }
+
+  span {
+    color: var(--lilas);
+  }
+
+  button {
+    width: 418px;
+    height: 57px;
+    margin-bottom: 3%;
+    color: var(--white);
+    background-color: var(--lilas);
+  }
+}
+
+.containerCards { //items
+  display: flex;
+
+  width: 100%;
+  overflow: hidden;
+
+  margin: 5% 0;
+  border: 2px solid blue;
+}
+
+
+.cardsHabilidades {
+  width: 300px;
+  height: 100px;
+  background-color: #ddd;
+  margin: 10px;
+}
+
+
+//NÃO É PRA APAGAR ISSO
+// .containerCards .cardsHabilidades {
+//   width: 300px;
+//   height: 300px;
+//   margin: 0 2%;
+
+//   justify-content: center;
+//   flex-direction: column;
+//   border-radius: 20px;
+//   background: #28272C;
+  
+//   h3 {
+//     color: var(--white);
+//     margin: 20px 25px 0 25px;
+//   }
+  
+//   p {
+//     font-size: 14px;
+//     margin: 50px 25px;
+//     color: var(--white);
+//   }
+// }
