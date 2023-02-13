@@ -5,7 +5,7 @@ import imgContato from "../../assets/img/conversa.svg";
 
 export const Contatos: React.FC = () => {
   return(
-    <section className="containerContatos">
+    <section className="containerContatos" id="contato">
       <div className="divTextContato">
         <h3>Vamos tirar seu <span>sonho</span> do papel??</h3>
         <p>Acompanhe de perto do desenvolvimento do seu site e leve seus planos ao próximo nível.</p>

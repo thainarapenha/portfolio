@@ -7,7 +7,7 @@ import { BotaoContato } from "../BotaoContato/BotaoContato";
 
 export const Habilidades: React.FC = () => {
   return (
-    <section className="containerHabilidades">
+    <section className="containerHabilidades" id="habilidades">
 
       <h2>Quer um site? Combine diversas <span>habilidades</span> em seus projetos</h2>
       <div className="containerCards">

@@ -5,6 +5,11 @@
   --black-2: #28272C;
   --gray: #212121;
   --gray-2: #00000087;
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .1em;
 }
 
 * {
@@ -16,7 +21,17 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, button, input, div {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+button,
+input,
+div {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,25 +40,50 @@ span {
 }
 
 header,
-nav ul {
+nav,
+.banner,
+.divText,
+.containerHabilidades,
+.containerCards,
+.cardsHabilidades,
+.containerContatos,
+.divTextContato,
+.containerSobre,
+.cardSobre,
+.card,
+.sobreMim,
+.containerFooter,
+.divIcons,
+.containerProjetos,
+.divTituloProjetos,
+.divCardProjetos,
+.sectionServicos,
+.infoServico,
+.divCardSrvicos,
+.cardServicos,
+.divTituloServico {
   display: flex;
 }
 
 header {
-  padding: 2% 0;
   justify-content: center;
 }
 
 nav {
   width: 700px;
-}
-
-nav ul {
+  height: 80px;
+  align-items: center;
   justify-content: space-between;
 }
 
-nav ul li {
-  margin: 0 2%;
+nav li a {
+  height: 24px;
+
+  &:hover {
+    color: var(--lilas);
+    font-weight: 700;
+    border-bottom: 3px solid var(--lilas);
+  }
 }
 
 .BtnCTA {
@@ -56,18 +96,16 @@ nav ul li {
 }
 
 .sectionBanner {
-  margin: 0 5%;
+  margin: 0 7%;
 }
 
 .banner {
   height: 640px;
-  display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .divText {
-  display: flex;
   flex-direction: column;
   position: absolute;
 
@@ -77,7 +115,7 @@ nav ul li {
   }
 
   p {
-    width: 60%;
+    width: 70%;
     font-size: 16px;
     margin: 32px 0;
   }
@@ -93,16 +131,14 @@ nav ul li {
 
 .divImg {
   bottom: -10;
-  left: 44%;
+  left: 42%;
   position: absolute;
 }
 
 .containerHabilidades {
-  display: flex;
   align-items: center;
   flex-direction: column;
   background-color: var(--black);
-  // border: 2px solid red;
 
   h2 {
     width: 747px;
@@ -124,8 +160,6 @@ nav ul li {
 }
 
 .containerCards {
-  display: flex;
-
   width: 100%;
   margin: 5% 0;
 }
@@ -134,18 +168,16 @@ nav ul li {
   width: 300px;
   height: 300px;
   margin: 0 2%;
-
-  display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
   background: #28272C;
-  
+
   h3 {
     color: var(--white);
     margin: 30px 25px 0 25px;
   }
-  
+
   p {
     font-size: 14px;
     margin: 20px 25px;
@@ -160,18 +192,16 @@ nav ul li {
 }
 
 .containerContatos {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 10%;
 }
 
 .divTextContato {
-  display: flex;
   flex-direction: column;
 
   h3 {
-    width: 503px; 
+    width: 503px;
     font-weight: 700;
     font-size: 40px;
   }
@@ -186,10 +216,9 @@ nav ul li {
 }
 
 .containerSobre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 5% 0 0 0;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--black-2);
 
   h2 {
@@ -202,18 +231,15 @@ nav ul li {
 }
 
 .cardSobre {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   width: 55%;
   height: 220px;
   margin: 5% 0;
 }
 
 .card {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -223,7 +249,7 @@ nav ul li {
   max-height: 100px;
 }
 
-.card img:hover, 
+.card img:hover,
 .CardProjetos:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -238,8 +264,7 @@ nav ul li {
   width: 80%;
 }
 
-.sobreMin {
-  display: flex;
+.sobreMim {
   justify-content: space-between;
   align-items: center;
   margin: 0 15% 2% 15%;
@@ -259,7 +284,7 @@ nav ul li {
     font-weight: 200;
     color: var(--white);
   }
-  
+
   a {
     font-weight: 600;
     color: var(--white);
@@ -268,7 +293,6 @@ nav ul li {
 
 .containerFooter {
   height: 80px;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--black);
@@ -280,12 +304,10 @@ nav ul li {
 
 .divIcons {
   width: 10%;
-  display: flex;
   justify-content: space-between;
 }
 
 .containerProjetos {
-  display: flex;
   flex-direction: column;
   margin-top: 2%;
 
@@ -298,7 +320,6 @@ nav ul li {
 }
 
 .divTituloProjetos {
-  display: flex;
   align-items: center;
   margin-left: 10%;
 
@@ -311,10 +332,8 @@ nav ul li {
 .divCardProjetos {
   width: 100%;
   margin-top: 3%;
-  display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-
+  justify-content: space-around;
 }
 
 .CardProjetos {
@@ -344,7 +363,6 @@ nav ul li {
 }
 
 .sectionServicos {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -360,7 +378,6 @@ nav ul li {
 }
 
 .infoServico {
-  display: flex;
   width: 80%;
   margin: 4%;
 
@@ -373,7 +390,6 @@ nav ul li {
 
 .divCardSrvicos {
   width: 50%;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
@@ -383,22 +399,19 @@ nav ul li {
 }
 
 .cardServicos {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   margin: 1%;
-
   width: 250px;
   height: 150px;
   border-radius: 15px;
   background-color: var(--black-2);
-  
+
   h6 {
     font-size: 18px;
     color: var(--white);
   }
-  
+
   p {
     font-size: 14px;
     font-weight: 200;
@@ -408,7 +421,6 @@ nav ul li {
 }
 
 .divTituloServico {
-  display: flex;
   align-items: center;
   margin: 10% 10% 0 10%;
 

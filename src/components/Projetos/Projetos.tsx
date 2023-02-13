@@ -6,7 +6,7 @@ import imgHomem from "../../assets/img/homem.svg";
 
 export const Projetos: React.FC = () => {
   return (
-    <section className="containerProjetos">
+    <section className="containerProjetos" id="projetos">
       <div className="divTituloProjetos">
         <img src={imgHomem}/>
         <h2>Deixei aqui alguns <span>projetos</span> que já fiz ou participei</h2>

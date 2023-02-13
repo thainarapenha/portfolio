@@ -1,4 +1,3 @@
-import './App.css'
 import { Header } from './components/Header/Header'
 import { Banner } from './components/Banner/Banner'
 import { Habilidades } from './components/Habilidades/Habilidades'
@@ -10,7 +9,7 @@ import { Servicos } from './components/Servicos/Servicos'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
       <Banner/>
       <Habilidades/>

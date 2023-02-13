@@ -7,7 +7,7 @@ import { BotaoContato } from "../BotaoContato/BotaoContato";
 
 export const Servicos: React.FC = () => {
   return (
-    <section className="sectionServicos">
+    <section className="sectionServicos" id="servico">
       <h2>Encontre um projetinho para <span>chamar de seu</span></h2>
       <div className="infoServico">
         <div className="divCardSrvicos">

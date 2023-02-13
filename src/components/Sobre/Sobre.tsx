@@ -14,7 +14,7 @@ import imgEU from "../../assets/img/eu.png";
 
 export const Sobre: React.FC = () => {
   return (
-    <section className="containerSobre">
+    <section className="containerSobre" id="sobre">
       <h2>Quer saber mais sobre <span>habilidades técnicas</span> ? Veja as <span>tecnologias</span> que estudo</h2>
       <div className="cardSobre">
         <div className="card cardImg--1">
@@ -35,7 +35,7 @@ export const Sobre: React.FC = () => {
         </div>
       </div>
 
-      <div className="sobreMin">
+      <div className="sobreMim">
         <img src={imgEU}/>
         <div className="textSobre">
           <p>Olá, tudo bem? :)</p>
