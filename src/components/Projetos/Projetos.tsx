@@ -16,7 +16,7 @@ export const Projetos: React.FC = () => {
         <div className="CardProjetos">
           <h6>Meu Livro</h6>
           <a href="https://meu-livro-frontend.vercel.app/" target="_blank">
-            <img src={imgMeuLivro} />
+            <img src={imgMeuLivro}/>
           </a>
         </div>
         <div className="CardProjetos">

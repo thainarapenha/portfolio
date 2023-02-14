@@ -17,15 +17,13 @@ export const Sobre: React.FC = () => {
     <section className="containerSobre" id="sobre">
       <h2>Quer saber mais sobre <span>habilidades técnicas</span> ? Veja as <span>tecnologias</span> que estudo</h2>
       <div className="cardSobre">
-        <div className="card cardImg--1">
+        <div className="card cardImg">
           <img src={imgHTML} />
           <img src={imgCSS} />
           <img src={imgJS} />
           <img src={imgTS} />
           <img src={imgREACT} />
           <img src={imgGIT} />
-        </div>
-        <div className="card cardImg--2">
           <img src={imgBOOTSTRAP} />
           <img src={imgSASS} />
           <img src={imgFIGMA} />
