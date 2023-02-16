@@ -1,6 +1,7 @@
 import React from "react";
-import imgAdoteAqui from "../../assets/img/adoteAqui.png";
-import imgCursos from "../../assets/img/plataformaCursos.png";
+import imgMeuLivro from "../../assets/img/meuLivro.svg";
+import imgAdoteAqui from "../../assets/img/adoteAqui.svg";
+import imgCursos from "../../assets/img/plataformaCursos.svg";
 import imgHomem from "../../assets/img/homem.svg";
 
 export const Projetos: React.FC = () => {
@@ -12,6 +13,12 @@ export const Projetos: React.FC = () => {
       </div>
 
       <div className="divCardProjetos">
+        <div className="CardProjetos">
+          <h6>Meu Livro</h6>
+          <a href="https://meu-livro-frontend.vercel.app/" target="_blank">
+            <img src={imgMeuLivro}/>
+          </a>
+        </div>
         <div className="CardProjetos">
           <h6>Adote Aqui</h6>
           <a href="https://thainarapenha.github.io/adoteaqui/" target="_blank">
