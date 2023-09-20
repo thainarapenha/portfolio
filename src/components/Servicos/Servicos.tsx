@@ -2,6 +2,7 @@ import React from "react";
 import iconPASTA from "../../assets/icons/pasta.svg";
 import iconTELA from "../../assets/icons/tela.svg";
 import iconTELAS from "../../assets/icons/telas.svg";
+import iconAPP from "../../assets/icons/app.svg";
 import imgHomemCadeira from "../../assets/img/homemCadeira.svg";
 import { BotaoContato } from "../BotaoContato/BotaoContato";
 
@@ -33,6 +34,14 @@ export const Servicos: React.FC = () => {
               <h6>SITE COM MAIS DE 1 PÁGINA</h6>
             </div>
             <p>Muita informação para mostrar</p>
+          </div>
+
+          <div className="cardServicos">
+            <div className="divTituloServico">
+              <img src={iconAPP} />
+              <h6>Aplicativos</h6>
+            </div>
+            <p>Torne seu serviço personalizado</p>
           </div>
 
           <BotaoContato />
