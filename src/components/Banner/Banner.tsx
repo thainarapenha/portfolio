@@ -31,10 +31,9 @@ export const Banner: React.FC = () => {
             </button>
             
             <button className="buttonContato">
-              Entrar em contato
+              Ver GitHub
             </button>
           </div>
-
         </div>
 
         <div className="divImg">

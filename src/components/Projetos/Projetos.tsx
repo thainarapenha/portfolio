@@ -28,7 +28,7 @@ export const Projetos: React.FC = () => {
             </p>
           </div>
 
-          <a href="https://meu-livro-frontend.vercel.app/" target="_blank">
+          <a href="https://github.com/thainarapenha/app-filmes" target="_blank">
             <img src={imgMeuLivro} />
           </a>
         </div>
@@ -39,15 +39,15 @@ export const Projetos: React.FC = () => {
           </a>
 
           <div className="divDescricaoCard">
-            <h6>App Filmes</h6>
+            <h6>Site E-Commmerce</h6>
             
             <div className="categoriaProjeto">
               <p>JavaScript</p>
               <p>React JS</p>
             </div>
             
-            <p>Aplicação criada em React Native com Expo para um app de filmes onde o usuário poderá encontrar
-              diversos filmes, pesquisar por nome e salvar seus favoritos.
+            <p>Projeto desenvolvido para conclusão de módulo de curso. O site expõe diversos livros, onde o usuário pode
+              pesquisar por nome, fazer login e adicionar livros ao carrinho.
             </p>
           </div>
         </div>
@@ -61,9 +61,9 @@ export const Projetos: React.FC = () => {
             <img src={imgAdoteAqui} />
           </a>
           <div className="divDescricaoOutrosCard">
-            <h6>Site E-Commerce</h6>
-            <p>Projeto desenvolvido para conclusão de módulo de curso. O site expõe diversos livros, onde o usuário pode
-              pesquisar por nome, fazer login e adicionar livros ao carrinho.
+            <h6>Adote Aqui</h6>
+            <p>Landing page de uma site fictício de uma ONG de adoção de animais resgatados. Projeto 
+              proposto para conclusão de módulo de curso voltado para HTML e CSS.
             </p>
           </div>
         </div>
@@ -73,21 +73,9 @@ export const Projetos: React.FC = () => {
             <img src={imgCursos} />
           </a>
           <div className="divDescricaoOutrosCard">
-            <h6>Site E-Commerce</h6>
-            <p>Projeto desenvolvido para conclusão de módulo de curso. O site expõe diversos livros, onde o usuário pode
-              pesquisar por nome, fazer login e adicionar livros ao carrinho.
-            </p>
-          </div>
-        </div>
-        
-        <div className="CardOutrosProjetos">
-          <a href="https://thainarapenha.github.io/PlataformaCursos/" target="_blank">
-            <img src={imgCursos} />
-          </a>
-          <div className="divDescricaoOutrosCard">
-            <h6>Site E-Commerce</h6>
-            <p>Projeto desenvolvido para conclusão de módulo de curso. O site expõe diversos livros, onde o usuário pode
-              pesquisar por nome, fazer login e adicionar livros ao carrinho.
+            <h6>Plataforma Cursos</h6>
+            <p>Projeto desafio de um site de uma empresa de cursos fictícia para conclusão de módulo de curso 
+              voltado para resolver um problema observado entre os membros da squad.
             </p>
           </div>
         </div>

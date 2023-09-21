@@ -8,31 +8,34 @@ import { BotaoContato } from "../BotaoContato/BotaoContato";
 export const Habilidades: React.FC = () => {
   return (
     <section className="containerHabilidades" id="habilidades">
+      <h2>Quais as minhas <span>experiências?</span> Um pouco dos <span>projetos</span> que participei</h2>
 
-      <h2>Quer um site? Combine diversas <span>habilidades</span> em seus projetos</h2>
       <div className="containerCards">
         <div className="cardsHabilidades">
-          <img src={iconSITE} />
+          <img src={iconDESIGN} />
           <div>
-            <h3>Criação de sites</h3>
-            <p>Ainda não tem um site?? O que acha de criarmos o site da sua empresa,
-              seu portfólio de trabalho ou até mesmo seu blog?</p>
+            <h3>Centro Acadêmico</h3>
+            <p>Trabalho voluntário com foco em melhorias e iniciativas voltadas aos estudantes do
+              curso de Eng. de Computação - UFC</p>
           </div>
         </div>
 
         <div className="cardsHabilidades">
-          <img src={iconDESIGN} />
+          <img src={iconSITE} />
           <div>
-            <h3>Design</h3>
-            <p>Deixe seu site de cara nova ou vamos desenvolver um do zero e do seu jeitinho.</p>
+            <h3>Empresa Júnior</h3>
+            <p>Trabalho voluntário voltado para o desenvolvimento profissional dos estudantes de
+              Eng. Computação - UFC Sobral.
+            </p>
           </div>
         </div>
 
         <div className="cardsHabilidades">
           <img src={iconGESTAO} />
           <div>
-            <h3>Gestão e estratégia</h3>
-            <p>Não sabe bem como estruturar seu site?? Criamos um para melhor atender seus objetivos.</p>
+            <h3>Bolsista Dev Front-End</h3>
+            <p>Projeto voltado para aprendizado em técnologia através do desenvolvimento
+              do projeto Open Source Bank por meio da FASTEF</p>
           </div>
         </div>
 
@@ -40,13 +43,11 @@ export const Habilidades: React.FC = () => {
           <img src={iconMKT} />
 
           <div>
-            <h3>Marketing e vendas</h3>
-            <p>Seu foco é conseguir clientes? Construa seu site com técnicas de conversão em vendas.</p>
+            <h3>Estágio</h3>
+            <p>Experiência como Dev Front-End no meio industrial através da Grendene S/A.</p>
           </div>
         </div>
       </div>
-      
-      <BotaoContato/>
     </section>
   );
 }

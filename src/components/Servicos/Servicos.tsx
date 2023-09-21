@@ -4,36 +4,35 @@ import iconTELA from "../../assets/icons/tela.svg";
 import iconTELAS from "../../assets/icons/telas.svg";
 import iconAPP from "../../assets/icons/app.svg";
 import imgHomemCadeira from "../../assets/img/homemCadeira.svg";
-import { BotaoContato } from "../BotaoContato/BotaoContato";
 
 export const Servicos: React.FC = () => {
   return (
-    <section className="sectionServicos" id="servico">
-      <h2>Encontre um projetinho para <span>chamar de seu</span></h2>
+    <section className="sectionServicos">
+      <h2>Um pouco mais sobre as <span>Áreas</span> em que atuei</h2>
       <div className="infoServico">
         <div className="divCardSrvicos">
           <div className="cardServicos">
             <div className="divTituloServico">
               <img src={iconTELA} />
-              <h6>SITE SIMPLES (Landing Page)</h6>
+              <h6>Criação de Sites</h6>
             </div>
-            <p>Poucas informações e com poucas alterações</p>
+            <p>Landing pages ou multiplas páginas</p>
           </div>
 
           <div className="cardServicos">
             <div className="divTituloServico">
               <img src={iconPASTA} />
-              <h6>PORTFÓLIO</h6>
+              <h6>Prototipação com Figma</h6>
             </div>
-            <p>Foco no design e imagens de exposição</p>
+            <p>Foco na experiência de usuário (UX Design)</p>
           </div>
 
           <div className="cardServicos">
             <div className="divTituloServico">
               <img src={iconTELAS} />
-              <h6>SITE COM MAIS DE 1 PÁGINA</h6>
+              <h6>Produtos Digitais</h6>
             </div>
-            <p>Muita informação para mostrar</p>
+            <p>Aplicação internas para empresas que trabalhei</p>
           </div>
 
           <div className="cardServicos">
@@ -41,10 +40,8 @@ export const Servicos: React.FC = () => {
               <img src={iconAPP} />
               <h6>Aplicativos</h6>
             </div>
-            <p>Torne seu serviço personalizado</p>
+            <p>Aplicação de uso em fábrica e projetos de portfólio</p>
           </div>
-
-          <BotaoContato />
         </div>
         <img id="imgHomem" src={imgHomemCadeira} />
       </div>

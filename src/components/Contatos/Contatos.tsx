@@ -1,18 +1,30 @@
 import React from "react";
 import "../../styles/global.scss";
-import { BotaoContato } from "../BotaoContato/BotaoContato";
 import imgContato from "../../assets/img/conversa.svg";
 
 export const Contatos: React.FC = () => {
-  return(
+  return (
     <section className="containerContatos" id="contato">
       <div className="divTextContato">
-        <h3>Vamos tirar seu <span>sonho</span> do papel??</h3>
-        <p>Acompanhe de perto do desenvolvimento do seu site e leve seus planos ao próximo nível.</p>
-        <BotaoContato/>
+        <h3>Entrar em <span>Contato</span></h3>
+        <p>Gostou do meu trabalho? Vamos conversar!</p>
+
+        <div className="divButton">
+          <button className="buttonEContato">
+            Enviar uma mensagem
+          </button>
+          <button className="buttonEContato">
+            Ver GitHub
+          </button>
+          <button className="buttonEContato">
+            Ver Linkedin
+          </button>
+        </div>
       </div>
+
+
       <div>
-        <img src={imgContato}/>
+        <img src={imgContato} />
       </div>
     </section>
   );
