@@ -109,11 +109,23 @@ nav li a {
 
 .banner {
   height: 640px;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
 
+  h1 {
+    font-size: 56px;
+    font-weight: 100;
+    margin-bottom: 1%;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: var(--black-2);
+  }
+
   .divButton {
-    width: 60%;
+    width: 50%;
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
@@ -121,14 +133,25 @@ nav li a {
 
   .buttonCV {
     width: 250px;
-  }
-  
-  .buttonContato {
-    width: 150px;
+    height: 50px;
     color: var(--lilas);
     border-radius: 4px;
-    border: 2px solid var(--lilas);
     background-color: var(--white);
+    border: 2px solid var(--lilas);
+    cursor: pointer;
+
+  }
+
+  .buttonCV:hover {
+    color: var(--white);
+    background-color: var(--lilas);
+  }
+  
+  .buttonGit {
+    width: 250px;
+    color: var(--white);
+    border-radius: 4px;
+    background-color: var(--black);
     cursor: pointer;
   }
 }

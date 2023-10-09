@@ -2,6 +2,7 @@ import React from "react";
 import imgMeuLivro from "../../assets/img/meuLivro.svg";
 import imgAdoteAqui from "../../assets/img/adoteAqui.svg";
 import imgCursos from "../../assets/img/plataformaCursos.png";
+import imgApp from "../../assets/img/appFilmes.png";
 import imgHomem from "../../assets/img/homem.svg";
 
 export const Projetos: React.FC = () => {
@@ -29,7 +30,7 @@ export const Projetos: React.FC = () => {
           </div>
 
           <a href="https://github.com/thainarapenha/app-filmes" target="_blank">
-            <img src={imgMeuLivro} />
+            <img src={imgApp} />
           </a>
         </div>
 
