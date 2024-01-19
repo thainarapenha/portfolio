@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./styles.scss";
 
 export const Banner: React.FC = () => {
   const [text, setText] = useState('');

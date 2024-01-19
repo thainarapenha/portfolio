@@ -4,6 +4,7 @@ import iconTELA from "../../assets/icons/tela.svg";
 import iconTELAS from "../../assets/icons/telas.svg";
 import iconAPP from "../../assets/icons/app.svg";
 import imgHomemCadeira from "../../assets/img/homemCadeira.svg";
+import "./styles.scss";
 
 export const Servicos: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ export const Servicos: React.FC = () => {
       <h2>Um pouco mais sobre as <span>Áreas</span> em que atuei</h2>
       <div className="infoServico">
         <div className="divCardSrvicos">
+          
           <div className="cardServicos">
             <div className="divTituloServico">
               <img src={iconTELA} />

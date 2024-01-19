@@ -3,7 +3,7 @@ import iconSITE from "../../assets/icons/site.svg";
 import iconDESIGN from "../../assets/icons/design.svg";
 import iconGESTAO from "../../assets/icons/gestao.svg";
 import iconMKT from "../../assets/icons/site.svg";
-import { BotaoContato } from "../BotaoContato/BotaoContato";
+import "./styles.scss";
 
 export const Habilidades: React.FC = () => {
   return (

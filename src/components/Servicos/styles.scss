@@ -1,0 +1,228 @@
+.sectionServicos {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0 0 0;
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 601px;
+    height: 98px;
+    text-align: center;
+  }
+}
+
+.infoServico {
+  width: 80%;
+  margin: 4%;
+
+  #imgHomem {
+    max-width: 400px;
+    right: 10%;
+    position: absolute;
+  }
+}
+
+.divCardSrvicos {
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  button {
+    margin-top: 3%;
+    border-radius: 4px;
+  }
+}
+
+.cardServicos {
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1%;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: var(--black-2);
+
+  h6 {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--white);
+    margin: 0 10% 10% 10%;
+  }
+}
+
+.divTituloServico {
+  align-items: center;
+  margin: 10% 10% 0 10%;
+
+  img {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 380px) {
+  .sectionServicos {
+    h2 {
+      width: 90%;
+      font-size: 24px;
+    }
+  }
+
+  .infoServico {
+    width: 90%;
+    
+    #imgHomem {
+      display: none;
+    }
+  }
+
+  .divCardSrvicos {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .cardServicos {
+    width: 150px;
+    padding: 5% 0;
+
+    p {
+      margin-top: 5%;
+      font-size: 12px;
+    }
+  }
+
+  .divTituloServico {
+    flex-direction: column;
+
+    img {
+      max-width: 40px;
+    }
+
+    h6 {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 381px) and (max-width: 600px) {
+  .sectionServicos {
+    h2 {
+      width: 90%;
+      font-size: 28px;
+    }
+  }
+
+  .infoServico {
+    width: 90%;
+    
+    #imgHomem {
+      display: none;
+    }
+  }
+
+  .cardServicos {
+    width: 45%;
+    padding: 5% 0;
+
+    p {
+      margin-top: 5%;
+      font-size: 12px;
+    }
+  }
+
+  .divCardSrvicos {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .divTituloServico {
+    flex-direction: column;
+
+    img {
+      max-width: 40px;
+    }
+
+    h6 {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .sectionServicos {
+    h2 {
+      width: 90%;
+      font-size: 36px;
+    }
+  }
+
+  .infoServico {
+    width: 90%;
+    align-items: center;
+    
+    #imgHomem {
+      max-width: 45%;
+    }
+  }
+
+  .divCardSrvicos {
+    width: 40%;
+  }
+
+  .divTituloServico {
+    flex-direction: column;
+
+    img {
+      max-width: 40px;
+    }
+
+    h6 {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 901px) {
+  .sectionServicos {
+    h2 {
+      width: 90%;
+      font-size: 36px;
+    }
+  }
+
+  .infoServico {
+    width: 90%;
+    align-items: center;
+    
+    #imgHomem {
+      max-width: 35%;
+    }
+  }
+
+  .divCardSrvicos {
+    width: 50%;
+  }
+
+  .cardServicos {
+    width: 45%;
+    margin: 5% 0;
+  }
+
+  .divTituloServico {
+    flex-direction: row;
+
+    img {
+      max-width: 40px;
+    }
+
+    h6 {
+      font-size: 14px;
+    }
+  }
+}

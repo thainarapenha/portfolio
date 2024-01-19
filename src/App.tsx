@@ -14,10 +14,10 @@ function App() {
       <Banner/>
       <Habilidades/>
       <Servicos/>
-      <Sobre/>
+      {/* <Sobre/>
       <Projetos/>
       <Contatos/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }

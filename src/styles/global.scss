@@ -103,58 +103,10 @@ nav li a {
   cursor: pointer;
 }
 
-.sectionBanner {
-  margin: 0 7%;
-}
 
-.banner {
-  height: 640px;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+/* style do banner aqui */
 
-  h1 {
-    font-size: 56px;
-    font-weight: 100;
-    margin-bottom: 1%;
-  }
 
-  h2 {
-    font-size: 24px;
-    color: var(--black-2);
-  }
-
-  .divButton {
-    width: 50%;
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .buttonCV {
-    width: 250px;
-    height: 50px;
-    color: var(--lilas);
-    border-radius: 4px;
-    background-color: var(--white);
-    border: 2px solid var(--lilas);
-    cursor: pointer;
-
-  }
-
-  .buttonCV:hover {
-    color: var(--white);
-    background-color: var(--lilas);
-  }
-  
-  .buttonGit {
-    width: 250px;
-    color: var(--white);
-    border-radius: 4px;
-    background-color: var(--black);
-    cursor: pointer;
-  }
-}
 
 .divText {
   flex-direction: column;
@@ -187,132 +139,10 @@ nav li a {
   position: absolute;
 }
 
-.containerHabilidades {
-  padding: 3% 0;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--black);
+/* styles habilidades */
 
-  h2 {
-    width: 747px;
-    height: 98px;
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 3%;
-    color: var(--white);
-  }
 
-  button {
-    width: 418px;
-    height: 57px;
-    margin-bottom: 3%;
-    border-radius: 4px;
-    color: var(--white);
-    background-color: var(--lilas);
-  }
-}
-
-.containerCards {
-  width: 100%;
-  margin: 5% 0;
-  justify-content: center;
-}
-
-.cardsHabilidades {
-  width: 300px;
-  height: 300px;
-  margin: 0 2%;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 20px;
-  background: #28272C;
-
-  h3 {
-    color: var(--white);
-    margin: 30px 25px 0 25px;
-  }
-
-  p {
-    font-size: 14px;
-    margin: 20px 25px;
-    color: var(--white);
-  }
-
-  img {
-    width: 100%;
-    max-width: 70px;
-    margin-top: 5%;
-  }
-}
-
-.sectionServicos {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5% 0 0 0;
-
-  h2 {
-    font-weight: 700;
-    font-size: 40px;
-    width: 601px;
-    height: 98px;
-    text-align: center;
-  }
-}
-
-.infoServico {
-  width: 80%;
-  margin: 4%;
-
-  #imgHomem {
-    max-width: 400px;
-    right: 10%;
-    position: absolute;
-  }
-}
-
-.divCardSrvicos {
-  width: 50%;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  button {
-    margin-top: 3%;
-    border-radius: 4px;
-  }
-}
-
-.cardServicos {
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 1%;
-  width: 250px;
-  height: 150px;
-  border-radius: 15px;
-  background-color: var(--black-2);
-
-  h6 {
-    font-size: 18px;
-    color: var(--white);
-  }
-
-  p {
-    font-size: 14px;
-    font-weight: 200;
-    color: var(--white);
-    margin: 0 10% 10% 10%;
-  }
-}
-
-.divTituloServico {
-  align-items: center;
-  margin: 10% 10% 0 10%;
-
-  img {
-    margin-right: 5%;
-  }
-}
+/* styles servicos */
 
 .containerSobre {
   margin-top: 5%;

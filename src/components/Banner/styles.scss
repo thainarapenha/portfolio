@@ -1,0 +1,154 @@
+.sectionBanner {
+  margin: 0 7%;
+}
+
+.banner {
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 56px;
+    font-weight: 100;
+    margin-bottom: 1%;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: var(--black-2);
+  }
+
+  .divButton {
+    width: 50%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttonCV {
+    width: 250px;
+    height: 50px;
+    color: var(--lilas);
+    border-radius: 4px;
+    background-color: var(--white);
+    border: 2px solid var(--lilas);
+    cursor: pointer;
+  }
+
+  .buttonCV:hover {
+    color: var(--white);
+    background-color: var(--lilas);
+  }
+  
+  .buttonGit {
+    width: 250px;
+    color: var(--white);
+    border-radius: 4px;
+    background-color: var(--black);
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 527px) {
+  .banner {
+    text-align: center;
+    height: 580px;
+    
+    h1 {
+      font-size: 32px;
+    }
+    
+    h2 {
+      font-size: 16px;
+      margin-top: 2%;
+    }
+
+    .divButton {
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .buttonCV,
+    .buttonGit {
+      width: 200px;
+      height: 40px;
+      margin: 2% 0;
+    }
+  }
+
+}
+
+@media (min-width: 526px) and (max-width: 715px) {
+  .banner {
+    text-align: center;
+    
+    h1 {
+      font-size: 42px;
+    }
+    
+    h2 {
+      font-size: 18px;
+    }
+
+    .divButton {
+      width: 100%;
+    }
+
+    .buttonCV,
+    .buttonGit {
+      width: 200px;
+      height: 40px;
+    }
+  }
+}
+
+@media (min-width: 716px) and (max-width: 1000px) {
+  .banner {
+    text-align: center;
+    
+    h1 {
+      font-size: 56px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+
+    .divButton {
+      width: 100%;
+    }
+
+    .buttonCV,
+    .buttonGit {
+      width: 250px;
+      height: 50px;
+    }
+  }
+}
+
+@media (min-width: 1001px) {
+  .banner {
+    text-align: center;
+    
+    h1 {
+      font-size: 56px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+
+    .divButton {
+      width: 60%;
+    }
+
+    .buttonCV,
+    .buttonGit {
+      width: 250px;
+      height: 50px;
+    }
+  }
+}
