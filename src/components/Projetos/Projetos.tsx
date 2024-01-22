@@ -4,6 +4,7 @@ import imgAdoteAqui from "../../assets/img/adoteAqui.svg";
 import imgCursos from "../../assets/img/plataformaCursos.png";
 import imgApp from "../../assets/img/appFilmes.png";
 import imgHomem from "../../assets/img/homem.svg";
+import "./styles.scss";
 
 export const Projetos: React.FC = () => {
   return (
@@ -19,9 +20,9 @@ export const Projetos: React.FC = () => {
             <h6>App Filmes</h6>
             
             <div className="categoriaProjeto">
-              <p>React Native</p>
-              <p>TypeScript</p>
-              <p>Styled-Component</p>
+              <p id="itemCategoria">React Native</p>
+              <p id="itemCategoria">TypeScript</p>
+              <p id="itemCategoria">Styled-Component</p>
             </div>
             
             <p>Aplicação criada em React Native com Expo para um app de filmes onde o usuário poderá encontrar
@@ -43,8 +44,8 @@ export const Projetos: React.FC = () => {
             <h6>Site E-Commmerce</h6>
             
             <div className="categoriaProjeto">
-              <p>JavaScript</p>
-              <p>React JS</p>
+              <p id="itemCategoria">JavaScript</p>
+              <p id="itemCategoria">React JS</p>
             </div>
             
             <p>Projeto desenvolvido para conclusão de módulo de curso. O site expõe diversos livros, onde o usuário pode
@@ -54,7 +55,7 @@ export const Projetos: React.FC = () => {
         </div>
       </div>
 
-      <h2>Outros <span>projetos</span></h2>
+      <h2 id="tituloOutros">Outros <span>projetos</span></h2>
 
       <div className="sectionOutrosProjetos">
         <div className="CardOutrosProjetos">

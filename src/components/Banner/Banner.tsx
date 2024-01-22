@@ -47,7 +47,7 @@ export const Banner: React.FC = () => {
           </button>
 
           <button className="buttonGit">
-            Ver GitHub
+            <a href="https://github.com/thainarapenha" target="blank">Ver GitHub</a>
           </button>
         </div>
       </div>

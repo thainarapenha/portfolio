@@ -84,11 +84,11 @@
 
   .divCardSrvicos {
     width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .cardServicos {
-    width: 150px;
     padding: 5% 0;
 
     p {

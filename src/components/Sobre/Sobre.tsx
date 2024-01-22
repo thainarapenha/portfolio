@@ -11,6 +11,7 @@ import imgFIGMA from "../../assets/img/FIGMA.svg";
 import imgSCRUM from "../../assets/img/SCRUM.svg";
 import imgMAIS from "../../assets/img/MAIS.svg";
 import imgEU from "../../assets/img/eu.png";
+import "./styles.scss";
 
 export const Sobre: React.FC = () => {
   return (
