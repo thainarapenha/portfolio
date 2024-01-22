@@ -1,18 +1,54 @@
-import React from "react";
-import imgBanner from "../../assets/img/banner.svg";
+import React, { useEffect, useState } from "react";
+import "./styles.scss";
 
 export const Banner: React.FC = () => {
-  return(
+  const [text, setText] = useState('');
+  const phrases = ['DEV FRONT-END COM FOCO NA EXPERIÊNCIA DE USUÁRIO'];
+  const delay = 100;
+
+  useEffect(() => {
+    let charIndex = 0;
+
+    const type = () => {
+      const currentPhrase = phrases[0];
+
+      if (charIndex <= currentPhrase.length) {
+        setText((prevText) => currentPhrase.slice(0, charIndex));
+        charIndex++;
+        setTimeout(type, delay);
+      }
+    };
+
+    type();
+  }, []);
+
+  const onButtonClick = () => {
+    fetch('CV+Thainara+Penha.pdf').then(response => {
+      response.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'CV+Thainara+Penha.pdf';
+        alink.click();
+      })
+    })
+  }
+
+  return (
     <section className="sectionBanner">
       <div className="banner">
-        <div className="divText">
-          <h1>Construção digital do seu site, portfólio e <span>muito mais!</span></h1>
-          <p>Dê uma nova cara ao seu negócio. Sites com um ótimo visual, funcionalidades e tecnologia.</p>
-          <button>Faça um orçamento gratuito</button>
-        </div>
+        <h1>THAINARA PENHA</h1>
+        <h2 className="element">{text}</h2>
 
-        <div className="divImg">
-          <img src={imgBanner}/>
+        <div className="divButton">
+          <button className="buttonCV" onClick={onButtonClick}>
+            Baixe meu currículo completo
+          </button>
+
+          <button className="buttonGit">
+            <a href="https://github.com/thainarapenha" target="blank">Ver GitHub</a>
+          </button>
         </div>
       </div>
     </section>

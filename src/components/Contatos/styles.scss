@@ -1,0 +1,206 @@
+.containerContatos {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.divTextContato {
+  flex-direction: column;
+
+  h3 {
+    width: 503px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  p {
+    width: 503px;
+    left: 181px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5% 0 10% 0;
+  }
+}
+
+.divButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .buttonEContato {
+    width: 150px;
+    height: 50px;
+    color: var(--lilas);
+    border-radius: 4px;
+    background-color: var(--lilas);
+    cursor: pointer;
+  }
+
+  a {
+    color: var(--white);;
+  }
+}
+
+.buttonEntrarContato {
+  width: 150px;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--lilas);
+  cursor: pointer;
+}
+
+@media (max-width: 380px) {
+  .containerContatos {
+    padding: 5% 0;
+    
+    img {
+      display: none;
+    }
+  }
+  
+  .divTextContato {
+    flex-direction: column;
+  
+    h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 28px;
+    }
+  
+  p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    }
+  }
+  
+  .divButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    .buttonEContato {
+      margin: 2% 0;
+    }
+  }
+}
+
+@media (min-width: 381px) and (max-width: 600px) {
+  .containerContatos {
+    padding: 5% 0;
+    
+    img {
+      display: none;
+    }
+  }
+  
+  .divTextContato {
+    width: 100%;
+    flex-direction: column;
+  
+    h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 28px;
+    }
+  
+  p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    }
+  }
+  
+  .divButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    .buttonEContato {
+      margin: 2% 0;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .containerContatos {
+    padding: 5% 0;
+    
+    img {
+      width: 100%;
+    }
+  }
+  
+  .divTextContato {
+    width: 100%;
+    flex-direction: column;
+  
+    h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 28px;
+    }
+  
+  p {
+    width: 100%;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+  
+  .divButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    .buttonEContato {
+      margin: 2% 0;
+    }
+  }
+}
+
+@media (min-width: 901px) {
+  .containerContatos {
+    padding: 5% 0;
+    
+    img {
+      width: 90%;
+    }
+  }
+  
+  .divTextContato {
+    width: 100%;
+    flex-direction: column;
+  
+    h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 28px;
+    }
+  
+  p {
+    width: 100%;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+  
+  .divButton {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    .buttonEContato {
+      margin: 0 2%;
+    }
+  }
+}

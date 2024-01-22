@@ -11,6 +11,7 @@ import imgFIGMA from "../../assets/img/FIGMA.svg";
 import imgSCRUM from "../../assets/img/SCRUM.svg";
 import imgMAIS from "../../assets/img/MAIS.svg";
 import imgEU from "../../assets/img/eu.png";
+import "./styles.scss";
 
 export const Sobre: React.FC = () => {
   return (
@@ -29,7 +30,6 @@ export const Sobre: React.FC = () => {
           <img src={imgFIGMA} />
           <img src={imgSCRUM} />
           <a href="https://www.linkedin.com/in/thainarapenha/" target="_blank"><img src={imgMAIS} /></a>
-          
         </div>
       </div>
 
@@ -37,9 +37,11 @@ export const Sobre: React.FC = () => {
         <img src={imgEU}/>
         <div className="textSobre">
           <p>Olá, tudo bem? :)</p>
-          <p>Me Chamo Thainara. Sou estudante de Engenharia de Computação-UFC e trabalho com 
-            desenvolvimento de sites (com foco em Front-End). Já tive experiências com Empresa Jr, 
-            Centro Acadêmico, Design, além do próprio desenvolvimento web.</p>
+          <p>Me Chamo Thainara. Sou estudante de Engenharia de Computação-UFC e Dev Front-End com foco 
+            na experiência de usuário. Tenho experiências diversas como Empresa Jr, Centro Acadêmico, 
+            bolsista, dentre outras. Também fiz parte de uma turma B2B na Resilia Educação patrocinada 
+            pela Stone para a minha formação no curso de Desenvolvimento Web FullStack. Atualmente sou estagiária 
+            na Grendene S/A onde atuo como Dev Front-End.</p>
           <p>Se quiser saber mais sobre mim, te convido a dar uma olhadinha 
             no meu <a href="https://www.linkedin.com/in/thainarapenha/" target="_blank">linkedin</a> :)</p>
         </div>
