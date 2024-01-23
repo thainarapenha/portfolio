@@ -17,7 +17,7 @@ function App() {
       <Sobre/>
       <Projetos/>
       <Contatos/>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
